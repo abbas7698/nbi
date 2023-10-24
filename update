@@ -50,6 +50,7 @@ cd geth-linux-amd64-1.10.23-d901d853/
 
 cd $home
 
+
 docker pull nulink/nulink:latest
 
 cd /root
@@ -90,6 +91,7 @@ export NULINK_KEYSTORE_PASSWORD=xxxxxxxxxxxx
 export NULINK_OPERATOR_ETH_PASSWORD=xxxxxxxxxx
 
  یه جای ایکس ها اون پسوردی که بالاتر دادید رو دوباره وارد کنید
+
 
 docker run -it --rm \
 -p 9151:9151 \
